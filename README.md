@@ -13,8 +13,25 @@ A powerful and intuitive task management system built with Vue 3, Vuetify, and P
 ## How to Run Project 
 1. **Clone the repository**
 2. **Install dependencies**
-    npm install
+    `npm install`
 3. **To Run in in Dev mode**
-    npm run dev
+    `npm run dev`
 4. **Build for production**
-    npm run build
+    `npm run build`
+
+## System Features
+
+1. **Task Creation and Update**:
+   - Easily create tasks and click to update details such as `due_date`, description, and priority.
+
+2. **Priority Points**:
+   - Each priority level is assigned specific points displayed next to it.
+
+3. **Due Date Indicator**:
+   - An icon is shown if the `due_date` has passed to indicate overdue tasks.
+
+4. **Search Functionality**:
+   - Search tasks based on title and description.
+
+5. **Sorting Options**:
+   - Sort tasks by priority in ascending or descending order.
