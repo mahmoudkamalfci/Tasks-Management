@@ -63,7 +63,7 @@ export const useAppStore = defineStore('app', {
     sortTasks (order = 'asc') {
       this.boards.forEach(board => {
         board.tasks.sort((a, b) => {
-          const comparison = a.priority - b.priority
+          const comparison = a?.priority - b?.priority
           return order === 'asc' ? comparison : -comparison
         })
       })
