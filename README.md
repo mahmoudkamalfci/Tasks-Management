@@ -35,3 +35,5 @@ A powerful and intuitive task management system built with Vue 3, Vuetify, and P
 
 5. **Sorting Options**:
    - Sort tasks by priority in ascending or descending order.
+6. **Drag and Drop**
+   - you can move task from baord to board or you can move task to change it's order in the same board
