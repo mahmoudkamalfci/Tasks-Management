@@ -13,4 +13,8 @@ A powerful and intuitive task management system built with Vue 3, Vuetify, and P
 ## How to Run Project 
 1. **Clone the repository**
 2. **Install dependencies**
-npm install
+    npm install
+3. **To Run in in Dev mode**
+    npm run dev
+4. **Build for production**
+    npm run build
